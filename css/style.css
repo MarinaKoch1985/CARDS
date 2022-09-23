@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    border: 1px solid black;
+    background-color: burlywood;
+}
+
+.root {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.prog_container {
+    position: relative;
+    border: 1px solid black;
+    width: 240px;
+    height: 20px;
+
+}
+
+.prog_line {
+    position: absolute;
+    height: 100%;
+    /* background-color: lightseagreen; */
+}
+ 
+.progressEl {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+
